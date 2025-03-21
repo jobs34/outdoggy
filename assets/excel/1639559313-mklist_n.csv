@@ -1,0 +1,13 @@
+title,is_multiple,choices,correct_choice,solution
+"A shopkeeper sold an article at a profit of 20%. If he had bought it at 20% less & sold it at Rs 80 less, then he earns a profit of 25%. Find the cost price of the article.",no,350 || 375 || 450 || 400,400,
+"Ram walks 40 km at 5 km/hr; he will be late by 1 hour and 20 minutes. If he walks at 8 km per hr, how early from the fixed time will he reach?",no,1 hour and 15 minutes || 1 hour and 25 minutes || 1 hour and 40minutes || 1.5 hours,1 hour and 40minutes,"speed=distance/time 
+time=distance/speed=40/5=8hours
+since he is 1 hour 20 mins late
+therefore the correct time is 6.666 hours
+now he is moving 8km/hr
+therefore time=40/8=5hours
+therefore he is 6.666¡©5=1.66 hours early"
+POSIX stands for ____________,no,Portable Operating System Interface for Unix || Portable Operating System Interface for Linux || Portative Operating System Interface for Unix || Portative Operating System Interface for Linux,Portable Operating System Interface for Unix,
+As per the provisions of Union Budget 2020-21 the components of Aspirational India are -,YES,"Agriculture, Irrigation and Rural Development. || Wellness, Water and Sanitation. || Education and Skills.","Agriculture, Irrigation and Rural Development. || Wellness, Water and Sanitation. || Education and Skills.",
+Which country has maximum number of banks in the Global Top 100 banks in 2019.,no,USA || Japan || China || France,China,
+The Concept of€Thalinomics€has been presented in India in -,no,The Union Budget 2020-21 || Economic Survey 2019-20 || SDG India Index 2019 || National Financial Inclusion Strategy 2019-24,Economic Survey 2019-20,

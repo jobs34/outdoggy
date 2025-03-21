@@ -1,0 +1,468 @@
+
+.course-container p{
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+    word-break: keep-all;
+    letter-spacing: -.021em;
+    margin-top: 14px;
+  }
+.course-container .lesson_title {
+    font-size: 34px;
+    line-height: 1.05;
+    letter-spacing: .008em;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+.course-container table, .course-container th, .course-container tr, .course-container td  {
+    border: solid 1px #a8a3b9;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 12px;
+}
+.course-container th  {
+    background-color: #f2f2f2;
+}
+
+.course-container h1 {
+    font-size: 38px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: .008em;
+}
+.course-container h2 { 
+      font-size: 32px;
+      line-height: 1.09375;
+      font-weight: 700;
+      letter-spacing: .011em;
+      margin-bottom: 10px;
+}
+.course-container h3 { 
+    font-size: 26px;
+    line-height: 1.09375;
+    font-weight: 700;
+    letter-spacing: .011em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+.course-container h4 { 
+    font-size: 21px;
+    line-height: 1.20849;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: .015em;
+}
+  .course-container h5 { 
+    font-size: 19px;
+    line-height: 1.20849;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: .015em;
+}
+  .course-container h6 { 
+    font-size: 17px;
+    line-height: 0.8;
+    font-weight: 700;
+    letter-spacing: .015em;
+    margin-top: 26px;
+    padding-left: 5px;
+    color: #111;
+    border-left: 3px solid #b0b0b0;
+}
+.course-container h6+p {
+    margin-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+.course-container p+h3, .course-container figure+h3, .course-container img+h3 {
+    padding-top: 40px;
+}
+
+  .course-container img { 
+      max-width: 100%;
+      height: auto;
+      display: inline;
+    }
+    .course-container p+img {
+        display: block;
+        margin: 25px 0 40px;
+    }
+    .course-container br+img {
+        display: block;
+        margin: 15px 0 30px;
+    }
+  @media (max-width: 768px){
+    .course-container h1 { 
+        font-size: 28px;
+        line-height: 1.1073;
+        font-weight: 700;
+        letter-spacing: .012em;
+    }
+    .course-container .lesson_title {
+        font-size: 26px;
+        line-height: 1.1073;
+        letter-spacing: .012em;
+        margin-top: 10px;
+    }
+    .course-container .intro p {
+        font-size: 19px;
+        line-height: 1.47384;
+        font-weight: 300;
+        letter-spacing: .018em;
+    }
+    .course-container h2 { 
+        font-size: 26px;
+        line-height: 1.50849;
+        font-weight: 700;
+        letter-spacing: .015em;
+    }
+    .course-container h3 { 
+        font-size: 21px;
+        line-height: 1.40849;
+        font-weight: 700;
+        letter-spacing: .015em;
+        margin-top: 30px;
+    }
+    .course-container h4 { 
+        font-size: 19px;
+        line-height: 1.36316;
+        font-weight: 700;
+        letter-spacing: .018em;
+    }
+    .course-container h5 { 
+        font-size: 17px;
+        line-height: 1.26316;
+        font-weight: 700;
+        letter-spacing: .018em;
+    }
+    .course-container h6 { 
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: .018em;
+        margin-top: 28px;
+    }
+}
+.course-container ul {
+    list-style: disc outside;
+    margin: 1em 0 0 0.25em;
+}
+.course-container ol, .course-container ul {
+    list-style-position: outside!important;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.course-container li {
+    font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    margin-bottom: 10px;
+}
+.course-container {
+    position: relative;
+    width: 100%;
+    min-height: 100px; }
+    @media (max-width: 576px) {
+      .course-container {
+        position: relative;
+        min-height: 100px;
+        padding-bottom: 50px;
+       } }
+    @media (min-width: 577px) and (max-width: 991.98px) {
+      .course-container {
+        position: relative;
+        min-height: 100px;
+        padding-bottom: 50px;
+       } }
+       
+.course-container .content {
+  position: relative;
+  left: 0;
+  margin-left: 0rem; }
+  @media (max-width: 576px) {
+    .course-container .content {
+      margin-left: 0rem; } }
+  @media (min-width: 577px) and (max-width: 991.98px) {
+    .course-container .content {
+      margin-left: 0rem; } }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .course-container .content {
+      margin-left: 0rem; }
+      .course-container .content .embed-responsive {
+        height: 100vh !important; } 
+      }
+  @media (min-width: 1200px) {
+    .course-container .content {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem;
+      max-width: 760px;
+     }
+      .course-container .content .embed-responsive {
+        height: 100vh !important; } 
+      }
+
+/* 코스 소개 페이지에서 쓰자 */
+
+.detail-content {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.desc_header{
+    font-size: 30px;
+    line-height: 2.4;
+    font-family: SBAggroM;
+    letter-spacing: -.021em;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 5px;
+    color: #333;
+}
+.introduce_main {
+    font-size: 26px;
+    line-height: 26px;
+    font-family: SBAggroM;
+    letter-spacing: -.021em;
+    border-left: 8px solid #ffd01a;
+    padding-left: 10px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-info-page {
+    margin-bottom: 10px;
+}
+
+.course-info-page p{
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+    word-break: keep-all;
+    letter-spacing: -.021em;
+    margin-top: 12px;
+  }
+ 
+  .course-info-page p+p {
+    padding-top: 5px;
+}
+
+  .course-info-page h1,.course-info-page h2,.course-info-page h3,.course-info-page h4{
+      color: #333;
+  }
+  
+.course-info-page h1 {
+    font-size: 32px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: .008em;
+}
+.course-info-page h2 { 
+      font-size: 26px;
+      line-height: 1.09375;
+      font-weight: 700;
+      letter-spacing: .011em;
+      margin-top: 35px;
+      margin-bottom: 10px;
+}
+.course-info-page h3 { 
+    font-size: 24px;
+    font-family: SBAggroL;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 45px;
+}
+.course-info-page h4 { 
+    font-size: 21px;
+    line-height: 1.20849;
+    margin-top: 40px;
+    font-weight: 700;
+    letter-spacing: .015em;
+}
+  .course-info-page h5 { 
+    font-size: 19px;
+    line-height: 1.20849;
+    margin-top: 38px;
+    font-weight: 700;
+    letter-spacing: .015em;
+}
+  .course-info-page h6 { 
+    font-size: 18px;
+    line-height: 0.8;
+    font-weight: 700;
+    letter-spacing: .015em;
+    margin-top: 38px;
+    padding-left: 5px;
+    color: #111;
+    border-left: 3px solid #b0b0b0;
+}
+.course-info-page h6+p {
+    margin-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+  .course-info-page img { 
+      max-width: 100%;
+      height: auto;
+      display: inline;
+    }
+    .course-info-page p+img {
+        display: block;
+        margin: 25px 0 40px;
+    }
+    .course-info-page br+img {
+        display: block;
+        margin: 15px 0 30px;
+    }
+    
+    .course-info-page ul {
+        list-style: disc outside;
+        margin: 1em 0 0 0.1em;
+    }
+    .course-info-page ol, .course-info-page ul {
+        list-style-position: outside!important;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-left: 18px;
+    }
+    .course-info-page li {
+        font-size: 17px;
+        line-height: 1.52947;
+        font-weight: 400;
+        letter-spacing: -.021em;
+        margin-bottom: 17px;
+    }
+    
+  .course-info-page hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-top: 1px solid #79758f;
+    width: 36%;
+}
+
+.half_pen {
+        background: linear-gradient(to top, #c5b5ff 30%, transparent 70%);
+        font-style: oblique;
+}
+
+course-detail{
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: -.021em;
+}
+
+.course-sidebar {
+    position: sticky;
+    }
+
+.course-sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e3e3e3;
+}          
+    
+  @media (max-width: 768px){
+    .desc_header{
+    font-size: 24px;
+    letter-spacing: -.021em;
+    } 
+    .introduce_main {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    }
+    
+    .course-info-page hr {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid #79758f;
+    width: 50%;
+    }
+    .course-info-page h1 { 
+        font-size: 26px;
+        line-height: 1.1073;
+        font-weight: 700;
+        letter-spacing: .012em;
+    }
+    .course-info-page h2 { 
+        font-size: 24px;
+        line-height: 1.50849;
+        font-weight: 700;
+        letter-spacing: .015em;
+    }
+    .course-info-page h3 { 
+        font-size: 21px;
+        line-height: 1.40849;
+        font-weight: 700;
+        letter-spacing: .015em;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .course-info-page h4 { 
+        font-size: 19px;
+        line-height: 1.36316;
+        font-weight: 700;
+        letter-spacing: .018em;
+    }
+    .course-info-page h5 { 
+        font-size: 17px;
+        line-height: 1.26316;
+        font-weight: 700;
+        letter-spacing: .018em;
+        margin-top: 38px;
+    }
+    .course-info-page h6 { 
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: .018em;
+        margin-top: 38px;
+    }
+    .course-info-page p{
+    font-size: 15px;
+    margin-top: 14px;
+    }
+    .course-info-page li {
+        font-size: 15px;
+    }
+}
+
+/* Max height */
+.max-preview-ht { max-height: 800px; display: inline-block;overflow: hidden;}
+
+.position-relative {
+    position: relative!important;
+}
+
+.background-gradation-transparent {
+    top: -300px;
+    height: 300px;
+    background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),color-stop(hsla(0,0%,100%,.7)),to(#fff));
+    background: -webkit-linear-gradient(hsla(0,0%,100%,0),hsla(0,0%,100%,.7),#fff);
+    background: linear-gradient(hsla(0,0%,100%,0),hsla(0,0%,100%,.7),#fff);
+}
+
+.pluscontents h5 {
+    font-size: 1.15em;
+    line-height: 1.6;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    letter-spacing: -.015em;
+}
+
+.pluscontents ul {
+    list-style: square;
+    margin: 0 0 0 0;
+    padding-left: 2em;
+}
+
+.pluscontents li {
+    font-size: 1em;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,300 @@
+/*Write your custom css in this file.*/
+
+.quiz-single-title.translate_quiz_title { min-height: 45px; }
+#headerMenuCollapse ul.navbar-nav.nav.nav-tabs {
+  margin: 0 0 0 auto;
+}
+.mini_height_150{ min-height: 150px; }
+div#quiz_all_in_one_modal .modal-dialog { max-width: 80% !important; min-width: 80% !important; }
+.running_quiz_question_form textarea.running_quiz_question {width: 100% !important;}
+
+.note-editor.note-airframe, .note-editor.note-frame .note-toolbar.card-header { display: unset; }
+
+#headerMenuCollapse ul.navbar-nav.nav.nav-tabs {
+  margin: 0 0 0 auto;
+}
+div#quiz_all_in_one_modal .modal-dialog { max-width: 80% !important; min-width: 80% !important; }
+.running_quiz_question_form textarea.running_quiz_question {width: 100% !important;}
+
+
+.history_page ul.pagination {
+  float: right;
+}
+
+.questions_img img.image { width: fit-content;margin-bottom: 20px;}
+/* The switch - the box around the slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 27px;
+  height: 5px;
+}
+.img_thumb {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    right: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+#background{
+    position:absolute;
+    z-index:0;
+
+    display:block;
+    min-height:50%;
+    min-width:50%;
+    color:yellow;
+}
+
+#content{
+    position:absolute;
+    z-index:1;
+}
+
+#bg-text
+{
+    color:lightgrey;
+    font-size:120px;
+    transform:rotate(300deg);
+    -webkit-transform:rotate(300deg);
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.required {
+  color: red;
+}
+
+
+/* The slider */
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px #2020203d;
+  background: #262834 url("https://i.ibb.co/FxzBYR9/night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked+.slider {
+  background-color: #2196f3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(3px);
+  -ms-transform: translateX(3px);
+  transform: translateX(3px);
+  background: white url("../../../images/sunny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body .no_underline { text-decoration: none !important;outline: none ; }
+body .no_underline:hover { text-decoration: none!important; outline: none ;}
+body .no_underline:focus { text-decoration: none!important; outline: none ; }
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+body .no_decerotaion {
+  text-decoration: none;
+}
+
+body .no_decerotaion:hover {
+  text-decoration: none;
+}
+
+.home_page img.category_img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+body .btn-purple {
+  color: #fff;
+  background-color: #a55eea !important;
+  border-color: #a55eea !important;
+}
+
+.top_header_onfo ul#session-language-dropdown li a {
+  width: 100%;
+  display: inline-flex;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.top_header_onfo ul#session-language-dropdown {
+  list-style: none;
+}
+
+.top_header_onfo .session-lang-dropdown {
+  margin: 0px;
+  list-style: none;
+  padding: 0;
+}
+
+.top_header_onfo .session-lang-dropdown #session-language {
+  margin: 0px;
+}
+
+.top_header_onfo ul#session-language-dropdown li a .selected-session-language {
+  position: absolute;
+  right: 20px;
+  margin-top: 5px;
+}
+
+table.result_table tr li {
+  max-width: 200px;
+}
+
+body .custom-control-label::after {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.quiz-image {
+  min-height: 200px;
+}
+
+.number-question {
+  margin: 0px;
+  padding: 0px;
+}
+
+.number-question li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10px;
+  color: #65605c;
+}
+
+.quiz-end .card-footer {
+  padding: 0px 0px;
+}
+
+.custom-title {
+  min-height: 65px;
+}
+
+.timer h3.text-primary.timerrr {
+  text-align: right;
+  float: right;
+}
+
+.timer .jst-hours {
+  float: left;
+}
+
+.timer .jst-minutes {
+  float: left;
+}
+
+.timer .jst-seconds {
+  float: left;
+}
+
+.timer .jst-clearDiv {
+  clear: both;
+}
+
+.notytimerrr.text-primary.timerrr {
+  text-align: right;
+  float: right;
+}
+
+.noty_body i {
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 9px;
+}
+
+.notytimerrr {
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.notytimerrr .jst-hours,
+.notytimerrr .jst-minutes,
+.notytimerrr .jst-seconds {
+  float: left;
+}
+
+.notytimerrr .jst-clearDiv {
+  clear: both;
+}
+
+.bodyTimeoutBackground {
+  background: white;
+}
+
+.timeout {
+  color: red;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-animation-duration: 1s;
+}
+
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+

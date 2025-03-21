@@ -1,0 +1,17 @@
+RewriteEngine on
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond $1 !^(index\.php|assets|img|css|js|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?/$1 [L,QSA]
+
+# allow all except those indicated here
+<Files *>
+order allow,deny
+allow from all
+deny from 77.222.40.224
+deny from .*grets\.store.*
+SetEnvIf GEOIP_COUNTRY_CODE PL BlockCountry 
+Deny from env=BlockCountry 
+</Files>
